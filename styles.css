@@ -55,8 +55,6 @@ header {
 #tesser2 {
     width:100%;
     height:300px;
- 
-    
 }
 #tesser2 img {
     width: 25%;
@@ -67,14 +65,15 @@ header {
 @media screen and (min-width: 800px) {
     #tesser2 {
         height: 600px;
-        
     }
-}
-#tesser3 img {
-    width: 25%;
-    height: 25%;
-    object-fit: cover;
-}
+    #tesser3 img {
+        width: 25%;
+        height: 25%;
+        object-fit: cover;
+      
+    }
+    
+
 nav {
     position: sticky;
     top: 0px;
