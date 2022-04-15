@@ -1,0 +1,103 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4d3d3;
+}
+
+header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.mitte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tesser {
+    width:100%;
+    height:300px;
+    
+}
+#tesser img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (min-width: 800px) {
+    #tesser {
+        height: 600px;
+    }
+    .mitte {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+#tesser1 {
+    width:100%;
+    height:300px;
+ 
+    
+}
+#tesser1 img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  
+}
+@media screen and (min-width: 800px) {
+    #tesser1 {
+        height: 600px;
+        
+    }
+}
+#tesser2 {
+    width:100%;
+    height:300px;
+ 
+    
+}
+#tesser2 img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+  
+}
+@media screen and (min-width: 800px) {
+    #tesser2 {
+        height: 600px;
+        
+    }
+}
+#tesser3 img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(10px);
+}
+
+footer ul, nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+footer ul li a, nav ul li a {
+    font-weight: bold;
+    padding: 16px;
+   
+ 
+}
+section {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
