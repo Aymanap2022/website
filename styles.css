@@ -1,13 +1,13 @@
 body {
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #d4d3d3;
 }
 
 header {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 80px;
+    margin-bottom: 5px;
 }
 .mitte {
     display: flex;
